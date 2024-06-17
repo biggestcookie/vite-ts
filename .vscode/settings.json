@@ -1,14 +1,8 @@
 {
-    "[html]": {
+    "[html][css][json][jsonc][javascript][typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode",
         "editor.tabSize": 2
     },
-    "[typescript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.tabSize": 2
-    },
-    "debug.javascript.autoExpandGetters": true,
-    "debug.javascript.usePreview": false,
     "editor.tabSize": 4,
     "files.eol": "\n",
     "prettier.trailingComma": "all",

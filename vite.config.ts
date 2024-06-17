@@ -1,10 +1,11 @@
-import path from "path";
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  resolve: {
-    alias: {
-      "/@": path.resolve(__dirname, "./src"),
-    },
+  preview: {
+    port: 3000,
+  },
+  server: {
+    port: 3000,
+    strictPort: true,
   },
 });
